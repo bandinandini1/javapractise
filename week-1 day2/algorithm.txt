@@ -1,0 +1,53 @@
+step1:start
+step2:read the n value
+step3:intialize sum<----1,i<----1,count<---1
+step4:repeatedly execute the steps
+       (i)-(iii) until (count<=n)
+       i   sum<--- sum*i
+       ii  i<--- i+2
+       iii count<---count+1
+step5:print sum
+step6:stop
+
+
+
+step1:start
+step2:read the n value
+step3:initialize count<---0,i<----1
+step4:repeatedly excute the steps
+       (i)-(ii) until(i<=num)
+       i)  if(n%i==0)then count<---count+1
+       ii)  i<---i+1
+step5:print count
+step6:stop
+
+
+
+
+
+step1:start
+step2:read the n value
+step3:intialize sum<---0,count<---0,i<----1
+step4:repeatedly excute the steps
+       (i)-(iii) until(i<=n)
+       i)  if(n%i==0)
+            sum<---sum+i
+       ii)  i<---i+1
+step5:print sum
+step6:stop
+
+
+step1:start
+step2:read the n value
+step3:intialize count<---0,i<----1
+step4:repeatedly excute the steps
+       (i)-(ii) until(i<=n)
+       i)  if(n%i==0)
+            count<---count+1
+       ii)  i<---i+1
+step5:if(count==2)the
+       print the num is prime
+      else
+       print the num is not prime
+step6:stop
+
