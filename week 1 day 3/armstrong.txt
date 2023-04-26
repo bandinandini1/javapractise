@@ -1,0 +1,14 @@
+step1:start
+step2:read the integer num
+step3:initialize the sum <---0,temp<---num
+step4:repeatedly execute the steps
+        (i)-(iv) num!=0
+       i)  remainder<--num%10
+       ii) cube<---reaminder**3
+       iii) sum<---sum+cube
+       iv)  num<---num/10
+step5:if(sum==temp)
+           print"temp is an armstrong"
+      else
+           print"temp is an not armstrong"
+step6:stop

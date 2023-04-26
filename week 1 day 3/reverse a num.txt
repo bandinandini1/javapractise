@@ -1,0 +1,10 @@
+step1:start
+step2:read the positive integer num
+step3:intialize rev<---0,temp<---num
+step4:repeatedly execute the steps
+      (i)-(iii)tepm!=0
+      i)digit<--temp%10
+      ii)rev<---rev*10+digit
+      iii)temp<---temp/10
+step5:print rev
+step6:stop
